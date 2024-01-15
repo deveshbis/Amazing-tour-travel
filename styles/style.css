@@ -5,35 +5,27 @@
  }
 
  /* nav style here */
+.nav-section{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-container a{
+    text-decoration: none;
+}
 
- .nav-section {
-     width: 1440px;
-     margin: 0 auto;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-
- .nav-container img {
-     align-items: center;
- }
-
- .nav-container h1 {
-     font-size: 36px;
-     font-weight: 800;
-
- }
-
- .item-container a {
-     text-decoration: none;
-     font-size: 18px;
-     font-weight: 400;
-     margin-left: 45px;
-     color: #424247;
- }
-
-
- /* Banner section style */
+ /* Banner section style
 
  .banner-section {
      width: 1170px;
@@ -84,7 +76,7 @@
  }
 
  /* popular-tours section style */
- .popular-tours {
+ /* .popular-tours {
      padding-top: 50px;
      width: 81.52%;
      max-width: 1170px;
@@ -105,4 +97,4 @@
      font-size: 16px;
      font-weight: 400;
      line-height: 26px;
- }
+ } */ 
