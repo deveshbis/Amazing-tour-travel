@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+ * {
+     font-family: 'Mulish', sans-serif;
+ }
+
+ /* nav style here */
+
+ .nav-section {
+     width: 1440px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .nav-container img {
+     align-items: center;
+ }
+
+ .nav-container h1 {
+     font-size: 36px;
+     font-weight: 800;
+
+ }
+
+ .item-container a {
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 400;
+     margin-left: 45px;
+     color: #424247;
+ }
+
+
+ /* Banner section style */
+
+ .banner-section {
+     width: 1170px;
+     height: 500px;
+     margin: 0 auto;
+     border-radius: 16px;
+     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../asset/rectangle2.png) no-repeat;
+ }
+
+ .banner-section h1 {
+     color: #FFF;
+     text-align: center;
+     font-size: 64px;
+     font-weight: 800;
+
+
+ }
+
+ .banner-section p {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+
+ }
+
+ .option-div {
+     display: inline-flex;
+     padding: 16px;
+     align-items: flex-start;
+     gap: 24px;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     margin: 0 auto;
+     padding-left: 185px;
+     padding-right: 185px;
+ }
+
+ .btn-primary {
+     border-radius: 8px;
+     background: #FF5400;
+     width: 174px;
+     height: 52px;
+     color: #FFF;
+     font-size: 20px;
+     font-weight: 800;
+     border: none;
+ }
+
+ /* popular-tours section style */
+ .popular-tours {
+     padding-top: 50px;
+     width: 81.52%;
+     max-width: 1170px;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 20px;
+ }
+
+ .popular-container h1 {
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .popular-container p ul>li {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
