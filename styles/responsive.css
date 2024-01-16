@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+    .nav-section {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .nav-container,
+    .item-container {
+        width: 100%;
+    }
+
+    .item-container {
+        justify-content: space-around; 
+        padding: 10px;
+    }
+
+    .banner-section {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .option-div {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .select-option {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .popular-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px; 
+    }
+
+    .popular-container,
+    .img-container {
+        width: 100%;
+        padding: 0 20px; 
+    }
+
+    .popular-container h1 {
+        font-size: 32px; 
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .destination-title {
+        font-size: 32px; 
+    }
+
+    .destination-title p {
+        font-size: 14px; 
+    }
+
+    .country-name {
+        top: 0; 
+    }
+
+    .choose-section h2 {
+        font-size: 32px; 
+    }
+
+    .choose-section p {
+        font-size: 14px; 
+    }
+
+    .card {
+        padding: 20px; 
+    }
+}
