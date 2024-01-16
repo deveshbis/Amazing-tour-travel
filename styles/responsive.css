@@ -2,7 +2,8 @@
     
     .nav-section,
     .nav-container,
-    .item-container{
+    .item-container,
+    .popular-section{
         flex-direction: column;
     }
 }

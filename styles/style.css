@@ -5,68 +5,82 @@
  }
 
  /* nav style here */
-.nav-section{
-    width: 1440px;
-    margin: 0 auto;
-    display: flex;
-}
-.nav-container{
-    display: flex;
-    align-items: center;
+ .nav-section {
+     width: 1440px;
+     margin: 0 auto;
+     display: flex;
+ }
+
+ .nav-container {
+     display: flex;
+     align-items: center;
+     width: 50%;
+ }
+
+ .item-container {
+     width: 50%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .item-container a {
+     text-decoration: none;
+ }
+
+
+
+
+
+
+
+ /* popular section style */
+ .popular-section {
+     max-width: 1440px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 50px;
+     padding-top: 100px;
+
+ }
+
+ .popular-container {
     width: 50%;
-}
-.item-container{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.item-container a{
-    text-decoration: none;
-}
+    padding-left: 120px;
+    padding-right: 10px;
 
 
+ }
 
+ .img-container {
+     width: 50%;
+     padding-left: 100px;
+    padding-right: 120px;
+ }
 
+ .btn-primary {
+     border-radius: 8px;
+     background: #FF5400;
+     width: 174px;
+     height: 52px;
+     color: #FFF;
+     font-size: 20px;
+     font-weight: 800;
+     border: none;
+ }
 
+ .popular-container h1 {
+     font-size: 40px;
+     font-weight: 800;
+ }
 
-
-/* popular section style */
-.popular-section{
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    padding-top: 50px;
-}
-.popular-container{
-    width: 50%;
-
-}
-
-.img-container{
-    width: 50%;
-}
-.btn-primary {
-    border-radius: 8px;
-    background: #FF5400;
-    width: 174px;
-    height: 52px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 800;
-    border: none;
-}
-.popular-container h1 {
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.popular-container p ul>li {
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
+ .popular-container p ul>li {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
 
 
 
@@ -76,7 +90,66 @@
 
 
 
- /* Banner section style
+ .banner-section {
+     width: 1170px;
+     height: 500px;
+     flex-shrink: 0;
+     margin: 0 auto;
+     border-radius: 16px;
+     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../asset/rectangle2.png ") no-repeat;
+     
+ }
+
+ .option-div {
+     display: inline-flex;
+     padding: 16px;
+     align-items: flex-start;
+     gap: 24px;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     margin: 0 auto;
+     padding: 16px;
+     margin-left: 200px;
+     margin-top: 100px;
+ }
+
+ .select-option {
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     border-radius: 8px;
+     background: #FFF;
+     border: none;
+     margin-bottom: 10px;
+ }
+
+ .banner-section h1 {
+     color: #FFF;
+     text-align: center;
+     font-size: 64px;
+     font-weight: 800;
+     margin-bottom: 30px;
+     padding-top: 100px;   
+ }
+
+ .banner-section p {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+     margin-bottom: -70px;
+ }
+
+ /* /* Banner section style
+
+
+ .banner-section {
+     width: 1170px;
+     height: 500px;
+     margin: 0 auto;
+     border-radius: 16px;
+     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../asset/rectangle2.png) no-repeat;
+ }
 
  .banner-section {
      width: 1170px;
@@ -115,16 +188,6 @@
      padding-right: 185px;
  }
 
- .btn-primary {
-     border-radius: 8px;
-     background: #FF5400;
-     width: 174px;
-     height: 52px;
-     color: #FFF;
-     font-size: 20px;
-     font-weight: 800;
-     border: none;
- }
 
  /* popular-tours section style */
  /* .popular-tours {
@@ -148,4 +211,18 @@
      font-size: 16px;
      font-weight: 400;
      line-height: 26px;
- } */ 
+ } */
+
+ .head-img{
+    max-width: 1440px;
+    margin-left: 287px;
+
+ }
+ .h1{
+    position: relative;
+ }
+ .h1-title{
+    position: absolute;
+    left: 287px;
+    top: 106px;
+ }
