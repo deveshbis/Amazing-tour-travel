@@ -20,7 +20,7 @@
  .item-container {
      width: 50%;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-evenly;
      align-items: center;
  }
 
@@ -35,6 +35,8 @@
 
 
  /* popular section style */
+
+ 
  .popular-section {
      max-width: 1440px;
      margin: 0 auto;
@@ -46,17 +48,15 @@
  }
 
  .popular-container {
-    width: 50%;
-    padding-left: 120px;
-    padding-right: 10px;
-
-
+     width: 50%;
+     padding-left: 120px;
+     padding-right: 10px;
  }
 
  .img-container {
      width: 50%;
      padding-left: 100px;
-    padding-right: 120px;
+     padding-right: 120px;
  }
 
  .btn-primary {
@@ -97,7 +97,7 @@
      margin: 0 auto;
      border-radius: 16px;
      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../asset/rectangle2.png ") no-repeat;
-     
+
  }
 
  .option-div {
@@ -129,7 +129,7 @@
      font-size: 64px;
      font-weight: 800;
      margin-bottom: 30px;
-     padding-top: 100px;   
+     padding-top: 100px;
  }
 
  .banner-section p {
@@ -140,89 +140,74 @@
      margin-bottom: -70px;
  }
 
- /* /* Banner section style
 
 
- .banner-section {
-     width: 1170px;
-     height: 500px;
-     margin: 0 auto;
-     border-radius: 16px;
-     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../asset/rectangle2.png) no-repeat;
+
+
+ /* Why Choose Us section style */
+ .choose-section{
+    padding-top:100px ;
  }
-
- .banner-section {
-     width: 1170px;
-     height: 500px;
-     margin: 0 auto;
-     border-radius: 16px;
-     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../asset/rectangle2.png) no-repeat;
- }
-
- .banner-section h1 {
-     color: #FFF;
+ .choose-section h2 {
+     color: #131318;
      text-align: center;
-     font-size: 64px;
-     font-weight: 800;
-
-
- }
-
- .banner-section p {
-     color: #FFF;
-     font-size: 16px;
-     font-weight: 400;
-     text-align: center;
-
- }
-
- .option-div {
-     display: inline-flex;
-     padding: 16px;
-     align-items: flex-start;
-     gap: 24px;
-     border-radius: 8px;
-     background: rgba(255, 255, 255, 0.30);
-     margin: 0 auto;
-     padding-left: 185px;
-     padding-right: 185px;
- }
-
-
- /* popular-tours section style */
- /* .popular-tours {
-     padding-top: 50px;
-     width: 81.52%;
-     max-width: 1170px;
-     margin: 0 auto;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     gap: 20px;
- }
-
- .popular-container h1 {
      font-size: 40px;
      font-weight: 800;
  }
 
- .popular-container p ul>li {
+ .choose-section p {
      color: rgba(19, 19, 24, 0.70);
+     text-align: center;
      font-size: 16px;
      font-weight: 400;
      line-height: 26px;
- } */
-
- .head-img{
-    max-width: 1440px;
-    margin-left: 287px;
-
  }
- .h1{
-    position: relative;
+
+ .card-container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 100px;
+     gap: 20px;
  }
- .h1-title{
-    position: absolute;
-    left: 287px;
-    top: 106px;
+
+ .card1 {
+    padding-top: 30px;
+    padding-left: 30px;
+     width: 573px;
+     height: 250px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+ }
+ .card img{
+    width: 50px;
+ }
+ .card h3{
+    text-align: left;
+ }
+ .card p{
+    text-align: left;
+ }
+ .card2 {
+    padding-top: 30px;
+    padding-left: 30px;
+     width: 573px;
+     height: 250px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+ }
+
+ .card3 {
+    padding-top: 30px;
+    padding-left: 30px;
+     width: 573px;
+     height: 250px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(233, 68, 68, 0.20);
+     background: rgba(233, 68, 68, 0.05);
  }
